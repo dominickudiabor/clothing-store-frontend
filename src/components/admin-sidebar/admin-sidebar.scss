@@ -1,0 +1,47 @@
+.admin {
+  display: flex;
+  justify-content: space-between;
+
+  .admin__sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    text-align: center;
+
+    .admin__user {
+      margin-bottom: 1rem;
+      padding: 2em 0;
+      border-bottom: 0.1px solid #cfcfcf;
+
+      .admin__image {
+        border-radius: 10%;
+        width: 6vw;
+        height: 11vh;
+        margin: 0 auto;
+      }
+      .admin__toggle {
+        font-family: 'Open Sans Condensed';
+        text-transform: initial;
+        color: blue;
+      }
+    }
+
+    .admin__links {
+      height: 25rem;
+      overflow: scroll;
+      .admin__icons {
+        display: flex;
+        justify-content: flex-start;
+        padding: 1.2rem 0 1.2rem 3rem;
+
+        .admin__iconbutton {
+          margin-top: -0.5em;
+          margin-left: 1rem;
+          font-family: 'Open Sans Condensed';
+          text-transform: initial;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

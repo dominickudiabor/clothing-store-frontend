@@ -1,0 +1,43 @@
+.user {
+  width: 100%;
+  display: flex;
+  min-height: 4rem;
+  border-bottom: 0.01px solid rgb(207, 207, 207);
+  padding: 1em 0;
+  font-size: 0.8;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+  .user__checkbox {
+    width: 10%;
+  }
+  .user__info {
+    width: 5%;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+  .user__name {
+    width: 25%;
+    text-transform: initial;
+    font-family: 'Open Sans Condensed';
+  }
+  .user__email {
+    width: 25%;
+    color: red;
+    &.confirm {
+      color: green;
+    }
+  }
+  .user__ban {
+    width: 10%;
+  }
+
+  .user__date {
+    width: 25%;
+    left: 4rem;
+  }
+}

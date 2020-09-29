@@ -1,0 +1,53 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin: 2rem auto;
+  min-height: 80vh;
+  text-align: center;
+  border-radius: 1%;
+  .dash__header {
+    color: blue;
+    margin: 1em 0;
+    font-size: 1.5rem;
+  }
+  .dash__contents {
+    align-content: space-between;
+    .dash__image {
+      border-radius: 10%;
+      width: 15vw;
+      height: 25vh;
+    }
+    .button {
+      font-family: 'Open Sans Condensed';
+    }
+    .dash__buttons {
+      margin-top: 5em;
+      color: blue;
+
+      .update {
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .confirm {
+        margin-top: 2em;
+        color: red;
+        font-family: 'Open Sans Condensed';
+      }
+
+      .dash__update {
+        margin-bottom: 1.5em;
+        &:focus {
+          outline: none;
+        }
+      }
+      .dash__password {
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}

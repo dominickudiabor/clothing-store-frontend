@@ -1,0 +1,11 @@
+.productUpdate__details {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  border-bottom: solid 1px blue;
+  margin: -1.2rem auto 1.5rem auto;
+  .productUpdate__title {
+    font-size: 1rem;
+    border-bottom: solid 1px blue;
+  }
+}

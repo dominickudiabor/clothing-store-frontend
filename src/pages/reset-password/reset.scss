@@ -1,0 +1,32 @@
+.reset {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    text-align: center;
+    padding: 2rem;
+
+    align-content: center;
+    border-radius: 5px;
+    margin: 6rem auto 0;
+    .title{
+        color: red;
+    }
+  
+  
+    .reset__form {
+        .button{
+            margin: 1.5rem 0;
+            width: 100%;
+            font-family: 'Open Sans Condensed';
+        }
+    }
+    .link{
+        text-decoration: none;
+        color: blue;
+    }
+
+    .dash__button{
+        font-family: 'Open Sans Condensed';
+    }
+  }
+  

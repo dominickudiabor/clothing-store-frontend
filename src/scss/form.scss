@@ -1,0 +1,56 @@
+.sign-up {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem auto;
+  min-height: 80vh;
+  text-align: center;
+
+  .title {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .desc {
+    margin-bottom: 1rem;
+  }
+  .button {
+    margin-top: 1rem;
+    width: 100%;
+    font-family: 'Open Sans Condensed';
+  }
+  .info {
+    color: red;
+  }
+
+  .signUp {
+    color: blue;
+    margin-bottom: 1.5rem;
+    &:focus {
+      outline: none;
+    }
+  }
+  .password {
+    margin-top: 1.2em;
+    color: blue;
+  }
+  .update-photo {
+    border-radius: 50%;
+    width: 8vw;
+    height: 15vh;
+  }
+  .update-title {
+    font-size: 1.4em;
+    color: blue;
+    margin-bottom: 1.5em;
+  }
+  .header {
+    font-size: 1.4em;
+    margin-bottom: 1.5em;
+    color: blue;
+  }
+  .info-text {
+    margin-top: 10%;
+    color: red;
+  }
+}
